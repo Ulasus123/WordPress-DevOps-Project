@@ -1,5 +1,5 @@
 provider "google" {
   project     = "dev-project-361620"
-  credentials =  file("production-361411-cc740870457d.json")
+  credentials =  file("foo.json") # There should be your credential information.
   region      = "us-central1"
 }
